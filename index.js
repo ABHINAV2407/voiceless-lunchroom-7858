@@ -54,3 +54,16 @@ function changebg(){
 }
 
 window.addEventListener("scroll",changebg);
+
+let btn1=document.querySelector("#manbtn").addEventListener("click",function(){
+    changepage1();
+})
+
+function changepage1(){
+    window.location.href="men.html";
+}
+
+let btn2=document.querySelector("#manbtn1").addEventListener("click",function(){
+    changepage1();
+})
+

@@ -1,0 +1,371 @@
+
+/* *{
+margin: 0;
+padding: 0;
+} */
+.bgcolor1{
+    color:white;
+}
+.bgcolor2{
+    color:yellow;
+}
+.bgcolor3{
+    color:black;
+}
+
+.color1{
+
+  background-color: white;
+}
+.color2{
+
+  background-color: yellow;
+}
+.color3{
+    
+  background-color:black;
+}
+.logo1{
+    filter: invert(100%) sepia(6%) saturate(7500%) hue-rotate(193deg) brightness(108%) contrast(105%);
+}
+.logo2{
+      filter: invert(80%) sepia(78%) saturate(539%) hue-rotate(5deg) brightness(106%) contrast(106%);
+}
+.logo3{
+    filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(46deg) brightness(108%) contrast(114%);
+}
+
+
+
+P{
+font-family:sans-serif;
+font-size: 13px;
+/* color: white; */
+}
+
+/* navbar */
+
+#navbar{
+width: 100%;
+height:100px;
+display: flex;
+justify-content: space-between;
+/* border: 1px solid white; */
+/* margin-top: 20px; */
+position: absolute;
+position: fixed;
+}
+#hamburger{
+width:35px;
+height:30px;
+margin-left: 20px;
+margin-top: 20px;
+
+/* border: 1px solid red;  */
+}
+#bar1{
+height: 1.5px;
+width:50%;
+
+margin-bottom: 8px;
+border-radius: 10px;
+}
+#bar2{
+height: 1.5px;
+width:50%;
+
+margin-bottom: 8px;
+border-radius: 10px;
+}
+#bar3{
+height: 1.5px;
+width:50%;
+margin-bottom: 8px;
+border-radius: 10px;
+}
+#zaralogo{
+width:15vw;
+/* border: 1px solid red; */
+margin-right: 300px;
+}
+#zaralogo>img{
+width: 95%;
+/* filter: grayscale(1) invert(1); */
+margin-top: 10px;
+}
+
+#navitem{
+  /* margin-top: 20px; */
+display: flex;
+width: 10%;
+/* border: 1px solid red; */
+justify-content :space-between;
+margin-right: 30px;
+}
+#search{
+  /* margin-top: 20px; */
+margin-left: 350px;
+font-weight: bold;
+}
+
+/* image1 */
+
+#imagebox{
+width:100%;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+z-index: -1;
+}
+#imagebox>img{
+width:100%;
+height:40%;
+margin-top: -100px;
+}
+
+#imagebox1{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: -1;
+    }
+    #imagebox1>img{
+    width:100%;
+    height:40%;
+    margin-top: -100px;
+    }
+
+
+    #manbtn{
+      position: absolute;
+      left: 20px;
+      top:360px;
+      border: none;
+      text-align: center;
+      background-color: transparent;
+      color: whitesmoke;
+      font: weight 25px;;
+      
+  }
+
+  /* #manbtn:hover{
+    background-color: yellow;
+     
+   } */
+  
+  
+  #arrow{
+    font-size: 40px;
+    font: weight 25px;
+    position: relative;
+    top: 10px;
+  }
+
+/* women video */
+#vidbox{
+width: 100%;
+/* display: flex;
+justify-content: center;
+align-items: center; */
+}
+#womenvid{
+width: 100%;
+margin-top: -5px;
+}
+#sale>h1{
+color: yellow;
+font-size: 160px;
+font-family: sans-serif;
+margin-top: 300px;
+}
+#sale{
+position:absolute;
+
+
+}
+#sale>p{
+text-align: center;
+font-size: 25px;
+position: relative;
+bottom: 100px;
+color: white;
+
+}
+#sale>h1{
+letter-spacing: 20px;
+}
+#sale>p+p{
+word-spacing: 50px;
+font-size: 12px;
+color: yellow;
+position: relative;
+bottom: -50px;
+}
+
+
+
+#manbtn11{
+  position: absolute;
+  left: 20px;
+  top:1550px;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  color: whitesmoke;
+  font: weight 25px;;
+  z-index: 10;
+  
+}
+/* #manbtn11:hover{
+ background-color: yellow;
+  
+} */
+
+
+#arrow1{
+font-size: 40px;
+font: weight 25px;
+position: relative;
+top: 10px;
+}
+
+
+
+
+
+/* image2 */
+
+#imagebox2{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: -1;
+    }
+    #imagebox2>img{
+    width:100%;
+    height:40%;
+    margin-top: -90px;
+    }
+    
+    #imagebox1{
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: -1;
+        }
+        #imagebox1>img{
+        width:100%;
+        height:40%;
+        margin-top: -100px;
+        }
+    
+
+
+
+
+
+
+
+
+
+        #manbtn22{
+          position: absolute;
+          left: 20px;
+          top:2500px;
+          text-align: center;
+          background-color: transparent;
+          border: none;
+          color: whitesmoke;
+          font: weight 25px;;
+          z-index: 599;
+          
+        }
+        
+        
+        #arrow2{
+        font-size: 40px;
+        font: weight 25px;
+        position: relative;
+        top: 10px;
+        }
+
+
+
+#sale2>h1{
+    color: yellow;
+    font-size: 160px;
+    font-family: sans-serif;
+    margin-top: 300px;
+    }
+    #sale2{
+    position:absolute;
+    
+    
+    }
+    #sale2>p{
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    bottom: 100px;
+    color: white;
+    
+    }
+    #sale2>h1{
+    letter-spacing: 20px;
+    }
+    #sale2>p+p{
+    word-spacing: 50px;
+    font-size: 12px;
+    color: yellow;
+    position: relative;
+    bottom: -40px;
+    }
+
+/* plane */
+
+#lower{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#plane{
+width: 100%;
+/* border: 1px solid red; */
+
+}
+#palne>img{
+width: 100%;
+/* border: 1px solid red; */
+}
+#textcenter{
+position: absolute;
+}
+#textcenter>p{
+color:black;
+}
+#textcenter>p:nth-child(1){
+text-align: center;
+font-size: 14px; 
+}
+#textcenter>p:nth-child(2){
+word-spacing:30px ;
+font-size: 10px;
+position: relative;
+bottom: -100px; 
+}
+#bottomtext>p{
+color: black;
+font-size: 10px;
+position: relative;
+right:350px;
+top: 250px;
+line-height: 5px;
+}
+
