@@ -76,3 +76,22 @@ document.querySelector("#manbtn22").addEventListener("click",function(){
 })
 
 
+function onClickMenu(){
+    document.getElementById("hamburger").classList.toggle("icon");
+    document.getElementById("nav").classList.toggle("change");
+}
+
+document.querySelector("#menclick").addEventListener("click",function(){
+     menclickfunc();
+})
+function menclickfunc(){
+    window.location.href="men.html";
+};
+
+document.querySelector("#womenclick").addEventListener("click",function(){
+    womenclickfunc();
+})
+function womenclickfunc(){
+   window.location.href="index.html";
+};
+

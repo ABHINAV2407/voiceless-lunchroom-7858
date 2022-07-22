@@ -1,3 +1,11 @@
+body{
+  background-color: black;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  }
 
 .bgcolor1{
     color:white;
@@ -39,6 +47,94 @@ font-size: 13px;
 /* color: white; */
 }
 
+/* <!-- hamburger work start from here --> */
+.bar{
+  display: block;
+  transition: 0.3s ease;
+}
+#bar1{
+  transform: translateY(-4px);
+}
+#bar3{
+  transform: translateY(4px);
+}
+.nav li a:hover{
+  border: 1px solid white;
+}
+.nav li{
+  list-style: none;
+  
+}
+
+.icon .bar{
+  background-color: white;
+}
+.icon #bar1{
+  transform: translateY(10px) rotate(-45deg);
+  background-color: black;
+
+}
+.icon #bar3{
+  transform: translateY(-9px) rotate(45deg);
+  background-color: black;
+  
+}
+.icon #bar2{
+  opacity: 0;
+}
+.nav{
+  padding: 0;
+  margin: 0 20px;
+  transition: 1s ease;
+  display: none;
+  
+  
+}
+li{
+  inline-size: -40px;
+ margin-top: 120PX;
+ margin-left: 20px;
+}
+
+li>a{
+  font-size: 10px;
+  text-decoration: none;
+  color: black;
+  padding: 0;
+  
+}
+.change{
+  background-color:whitesmoke;
+  height: 100vh;
+  margin: 0;
+  position: absolute;
+  font-size: 30px;
+  top: 0;
+  z-index: -100;
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* navbar */
 
 #navbar{
@@ -49,6 +145,7 @@ justify-content: space-between;
 /* border: 1px solid black; */
 position: absolute;
 position: fixed;
+
 }
 #hamburger{
 width:35px;
@@ -87,6 +184,7 @@ margin-right: 300px;
 width: 95%;
 /* filter: grayscale(1) invert(1); */
 margin-top: 10px;
+z-index: 1000;
 }
 
 #navitem{
@@ -95,10 +193,12 @@ width: 10%;
 /* border: 1px solid red; */
 justify-content :space-between;
 margin-right: 30px;
+margin-top: 10px;
 }
 #search{
 margin-left: 350px;
 font-weight: bold;
+margin-top: 10px;
 }
 
 /* image1 */
@@ -140,6 +240,7 @@ align-items: center;
 #womenvid{
 width: 100%;
 margin-top: -5px;
+z-index: -102;
 }
 #sale>h1{
 color: yellow;
@@ -149,7 +250,7 @@ margin-top: 300px;
 }
 #sale{
 position:absolute;
-
+z-index: -101;
 
 }
 #sale>p{
@@ -162,6 +263,7 @@ color: white;
 }
 #sale>h1{
 letter-spacing: 20px;
+margin-bottom:100px ;
 }
 #sale>p+p{
 word-spacing: 50px;
@@ -180,7 +282,7 @@ bottom: -40px;
   border: none;
   color: whitesmoke;
   font: weight 25px;;
-  z-index: 500;
+  
 }
 
 
@@ -199,11 +301,14 @@ align-items: center;
 }
 #plane{
 width: 100%;
+z-index: -102;
 /* border: 1px solid red; */
 }
-#palne>img{
-width: 100%;
-/* border: 1px solid red; */
+
+#white{
+  width: 100%;
+/* border: 1px solid teal; */
+
 }
 #textcenter{
 position: absolute;
@@ -227,6 +332,7 @@ font-size: 10px;
 position: relative;
 right:350px;
 top: 250px;
-line-height: 5px;
+line-height: 15px;
+z-index: -101;
 }
 
