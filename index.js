@@ -85,3 +85,9 @@ document.querySelector("#womenclick").addEventListener("click",function(){
 function womenclickfunc(){
    window.location.href="index.html";
 };
+
+
+
+document.querySelector("#login").addEventListener("click",function(){
+    window.location.href="login.html";
+})
